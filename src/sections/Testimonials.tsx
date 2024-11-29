@@ -78,7 +78,7 @@ const thirdColumn = testimonials.slice(6, 9);
 const TestimonialsColumn = (props: {
   className?: string;
   testimonials: typeof testimonials;
-  duration?: number
+  duration?: number;
 }) => (
   <div className={props.className}>
     <motion.div
@@ -95,8 +95,8 @@ const TestimonialsColumn = (props: {
     >
       {[...new Array(2)].fill(0).map((_, index) => (
         <React.Fragment key={index}>
-          {props.testimonials.map(({ text, imageSrc, name, username }) => (
-            <div className="card">
+          {props.testimonials.map(({ text, imageSrc, name, username }, testimonialIndex) => (
+            <div className="card" key={`${name}-${testimonialIndex}`}>
               <div>{text}</div>
               <div className="flex items-center gap-2 mt-5">
                 <Image
@@ -136,8 +136,7 @@ export const Testimonials = () => {
           </p>
         </div>
         <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">
-          <TestimonialsColumn testimonials={firstColumn}
-          duration={15} />
+          <TestimonialsColumn testimonials={firstColumn} duration={15} />
           <TestimonialsColumn
             testimonials={secondColumn}
             className="hidden md:block"
