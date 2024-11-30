@@ -13,7 +13,7 @@ import {
 import { useRef } from "react";
 
 export const Hero = () => {
-  const heroRef = useRef();
+  const heroRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: heroRef,
     offset: ["start end", "end start"],
