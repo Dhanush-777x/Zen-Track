@@ -19,7 +19,7 @@ const testimonials = [
     text: "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
     imageSrc: avatar1.src,
     name: "Cindrella",
-    username: "@jamietechguru00",
+    username: "@itscindrella.123",
   },
   {
     text: "Our team's productivity has skyrocketed since we started using this tool. ",
@@ -30,8 +30,8 @@ const testimonials = [
   {
     text: "This app has completely transformed how I manage my projects and deadlines.",
     imageSrc: avatar3.src,
-    name: "Prem Kumar",
-    username: "@premk77",
+    name: "Justin",
+    username: "@justin77",
   },
   {
     text: "I was amazed at how quickly we were able to integrate this app into our workflow.",
@@ -42,8 +42,8 @@ const testimonials = [
   {
     text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
     imageSrc: avatar5.src,
-    name: "Zhang Lurang",
-    username: "@zhang.lurang17",
+    name: "Wu Qian",
+    username: "@qian.wu",
   },
   {
     text: "The customizability and integration capabilities of this app are top-notch.",
