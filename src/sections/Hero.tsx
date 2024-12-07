@@ -51,7 +51,7 @@ export const Hero = () => {
               alt="cog Image"
               className="md:absolute md:h-full w-auto md:max-w-none md:-left-6 lg:left-0"
               animate={{
-                translateY: [-30, 30],
+                y: [-30, 30],
               }}
               transition={{
                 repeat: Infinity,
