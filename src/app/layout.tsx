@@ -6,8 +6,8 @@ import clsx from "clsx";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Elbrit Life",
-  description: "Elbrit Life Sciences Pvt Ltd",
+  title: "Zen Trck",
+  description: "Pathway to productivity",
 };
 
 export default function RootLayout({
